@@ -4,12 +4,18 @@ import { Furigana, FuriganaText } from "../components/Furigana";
 import { PageHeader } from "../components/PageHeader";
 import { speak } from "../lib/tts";
 import { primaryKanjiReading, toReadingText } from "../lib/furigana";
+import { toHiragana } from "../lib/kana";
 
 const MAX_RESULTS = 25;
 
+/** Lowercases, folds katakana to hiragana, and drops okurigana dashes (e.g. "い-きる" -> "いきる") so a plain hiragana query matches regardless of script or dashes in the source data. */
+function normalize(s: string): string {
+  return toHiragana(s.toLowerCase()).replace(/-/g, "");
+}
+
 function matches(query: string, ...fields: string[]): boolean {
-  const q = query.toLowerCase();
-  return fields.some((f) => f.toLowerCase().includes(q));
+  const q = normalize(query);
+  return fields.some((f) => normalize(f).includes(q));
 }
 
 function ResultSection({ title, children }: { title: string; children: ReactNode }) {
