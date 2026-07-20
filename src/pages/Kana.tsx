@@ -6,6 +6,7 @@ import { Flashcard } from "../components/Flashcard";
 import { ProgressBar } from "../components/ProgressBar";
 import { PageHeader } from "../components/PageHeader";
 import { speak } from "../lib/tts";
+import { shuffle } from "../lib/random";
 
 type Mode = "chart" | "drill";
 type KanaType = "hiragana" | "katakana";
@@ -25,7 +26,7 @@ export default function Kana() {
     [kanaType],
   );
 
-  const ids = useMemo(() => KANA.map((k) => k.id), []);
+  const ids = useMemo(() => shuffle(KANA.map((k) => k.id)), []);
   const { dueIds, reviewItem } = useSRS("kana", ids);
   const [initialDue] = useState(() => dueIds.length);
   const byId = useMemo(() => {
