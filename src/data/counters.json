@@ -1,0 +1,128 @@
+[
+  {
+    "id": "general",
+    "counter": "〜つ",
+    "usage": "General objects — use for anything when you don't know the specific counter (1–9 only, then とお)",
+    "items": [
+      { "count": 1, "kanji": "1つ", "reading": "ひとつ" },
+      { "count": 2, "kanji": "2つ", "reading": "ふたつ" },
+      { "count": 3, "kanji": "3つ", "reading": "みっつ" },
+      { "count": 4, "kanji": "4つ", "reading": "よっつ" },
+      { "count": 5, "kanji": "5つ", "reading": "いつつ" },
+      { "count": 6, "kanji": "6つ", "reading": "むっつ" },
+      { "count": 7, "kanji": "7つ", "reading": "ななつ" },
+      { "count": 8, "kanji": "8つ", "reading": "やっつ" },
+      { "count": 9, "kanji": "9つ", "reading": "ここのつ" },
+      { "count": 10, "kanji": "10", "reading": "とお" },
+      { "count": 0, "kanji": "いくつ", "reading": "いくつ", "note": "how many?" }
+    ]
+  },
+  {
+    "id": "people",
+    "counter": "〜人",
+    "usage": "Counting people",
+    "items": [
+      { "count": 1, "kanji": "1人", "reading": "ひとり", "note": "irregular" },
+      { "count": 2, "kanji": "2人", "reading": "ふたり", "note": "irregular" },
+      { "count": 3, "kanji": "3人", "reading": "さんにん" },
+      { "count": 4, "kanji": "4人", "reading": "よにん", "note": "not よんにん" },
+      { "count": 5, "kanji": "5人", "reading": "ごにん" },
+      { "count": 6, "kanji": "6人", "reading": "ろくにん" },
+      { "count": 7, "kanji": "7人", "reading": "しちにん" },
+      { "count": 8, "kanji": "8人", "reading": "はちにん" },
+      { "count": 9, "kanji": "9人", "reading": "きゅうにん" },
+      { "count": 10, "kanji": "10人", "reading": "じゅうにん" },
+      { "count": 0, "kanji": "何人", "reading": "なんにん", "note": "how many people?" }
+    ]
+  },
+  {
+    "id": "small-objects",
+    "counter": "〜個",
+    "usage": "Small, roughly round objects (apples, boxes, candy…)",
+    "items": [
+      { "count": 1, "kanji": "1個", "reading": "いっこ" },
+      { "count": 2, "kanji": "2個", "reading": "にこ" },
+      { "count": 3, "kanji": "3個", "reading": "さんこ" },
+      { "count": 4, "kanji": "4個", "reading": "よんこ" },
+      { "count": 5, "kanji": "5個", "reading": "ごこ" },
+      { "count": 6, "kanji": "6個", "reading": "ろっこ" },
+      { "count": 7, "kanji": "7個", "reading": "ななこ" },
+      { "count": 8, "kanji": "8個", "reading": "はっこ" },
+      { "count": 9, "kanji": "9個", "reading": "きゅうこ" },
+      { "count": 10, "kanji": "10個", "reading": "じゅっこ" },
+      { "count": 0, "kanji": "何個", "reading": "なんこ", "note": "how many?" }
+    ]
+  },
+  {
+    "id": "flat-objects",
+    "counter": "〜枚",
+    "usage": "Flat, thin objects (paper, tickets, shirts, plates…)",
+    "items": [
+      { "count": 1, "kanji": "1枚", "reading": "いちまい" },
+      { "count": 2, "kanji": "2枚", "reading": "にまい" },
+      { "count": 3, "kanji": "3枚", "reading": "さんまい" },
+      { "count": 4, "kanji": "4枚", "reading": "よんまい" },
+      { "count": 5, "kanji": "5枚", "reading": "ごまい" },
+      { "count": 6, "kanji": "6枚", "reading": "ろくまい" },
+      { "count": 7, "kanji": "7枚", "reading": "ななまい" },
+      { "count": 8, "kanji": "8枚", "reading": "はちまい" },
+      { "count": 9, "kanji": "9枚", "reading": "きゅうまい" },
+      { "count": 10, "kanji": "10枚", "reading": "じゅうまい" },
+      { "count": 0, "kanji": "何枚", "reading": "なんまい", "note": "how many?" }
+    ]
+  },
+  {
+    "id": "long-objects",
+    "counter": "〜本",
+    "usage": "Long, cylindrical objects (bottles, pens, trees…)",
+    "items": [
+      { "count": 1, "kanji": "1本", "reading": "いっぽん" },
+      { "count": 2, "kanji": "2本", "reading": "にほん" },
+      { "count": 3, "kanji": "3本", "reading": "さんぼん" },
+      { "count": 4, "kanji": "4本", "reading": "よんほん" },
+      { "count": 5, "kanji": "5本", "reading": "ごほん" },
+      { "count": 6, "kanji": "6本", "reading": "ろっぽん" },
+      { "count": 7, "kanji": "7本", "reading": "ななほん" },
+      { "count": 8, "kanji": "8本", "reading": "はっぽん" },
+      { "count": 9, "kanji": "9本", "reading": "きゅうほん" },
+      { "count": 10, "kanji": "10本", "reading": "じゅっぽん" },
+      { "count": 0, "kanji": "何本", "reading": "なんぼん", "note": "how many?" }
+    ]
+  },
+  {
+    "id": "small-animals",
+    "counter": "〜匹",
+    "usage": "Small animals (cats, dogs, fish, insects…)",
+    "items": [
+      { "count": 1, "kanji": "1匹", "reading": "いっぴき" },
+      { "count": 2, "kanji": "2匹", "reading": "にひき" },
+      { "count": 3, "kanji": "3匹", "reading": "さんびき" },
+      { "count": 4, "kanji": "4匹", "reading": "よんひき" },
+      { "count": 5, "kanji": "5匹", "reading": "ごひき" },
+      { "count": 6, "kanji": "6匹", "reading": "ろっぴき" },
+      { "count": 7, "kanji": "7匹", "reading": "ななひき" },
+      { "count": 8, "kanji": "8匹", "reading": "はっぴき" },
+      { "count": 9, "kanji": "9匹", "reading": "きゅうひき" },
+      { "count": 10, "kanji": "10匹", "reading": "じゅっぴき" },
+      { "count": 0, "kanji": "何匹", "reading": "なんびき", "note": "how many?" }
+    ]
+  },
+  {
+    "id": "books",
+    "counter": "〜冊",
+    "usage": "Bound objects (books, magazines, notebooks…)",
+    "items": [
+      { "count": 1, "kanji": "1冊", "reading": "いっさつ" },
+      { "count": 2, "kanji": "2冊", "reading": "にさつ" },
+      { "count": 3, "kanji": "3冊", "reading": "さんさつ" },
+      { "count": 4, "kanji": "4冊", "reading": "よんさつ" },
+      { "count": 5, "kanji": "5冊", "reading": "ごさつ" },
+      { "count": 6, "kanji": "6冊", "reading": "ろくさつ" },
+      { "count": 7, "kanji": "7冊", "reading": "ななさつ" },
+      { "count": 8, "kanji": "8冊", "reading": "はっさつ" },
+      { "count": 9, "kanji": "9冊", "reading": "きゅうさつ" },
+      { "count": 10, "kanji": "10冊", "reading": "じゅっさつ" },
+      { "count": 0, "kanji": "何冊", "reading": "なんさつ", "note": "how many?" }
+    ]
+  }
+]

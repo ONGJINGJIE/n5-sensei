@@ -1,0 +1,36 @@
+{
+  "hours": [
+    { "num": 1, "kanji": "1時", "reading": "いちじ" },
+    { "num": 2, "kanji": "2時", "reading": "にじ" },
+    { "num": 3, "kanji": "3時", "reading": "さんじ" },
+    { "num": 4, "kanji": "4時", "reading": "よじ", "note": "not よんじ" },
+    { "num": 5, "kanji": "5時", "reading": "ごじ" },
+    { "num": 6, "kanji": "6時", "reading": "ろくじ" },
+    { "num": 7, "kanji": "7時", "reading": "しちじ", "note": "not ななじ" },
+    { "num": 8, "kanji": "8時", "reading": "はちじ" },
+    { "num": 9, "kanji": "9時", "reading": "くじ", "note": "not きゅうじ" },
+    { "num": 10, "kanji": "10時", "reading": "じゅうじ" },
+    { "num": 11, "kanji": "11時", "reading": "じゅういちじ" },
+    { "num": 12, "kanji": "12時", "reading": "じゅうにじ" },
+    { "num": 0, "kanji": "何時", "reading": "なんじ", "note": "what time?" }
+  ],
+  "minutes": [
+    { "num": 1, "kanji": "1分", "reading": "いっぷん" },
+    { "num": 2, "kanji": "2分", "reading": "にふん" },
+    { "num": 3, "kanji": "3分", "reading": "さんぷん" },
+    { "num": 4, "kanji": "4分", "reading": "よんぷん" },
+    { "num": 5, "kanji": "5分", "reading": "ごふん" },
+    { "num": 6, "kanji": "6分", "reading": "ろっぷん" },
+    { "num": 7, "kanji": "7分", "reading": "ななふん" },
+    { "num": 8, "kanji": "8分", "reading": "はっぷん" },
+    { "num": 9, "kanji": "9分", "reading": "きゅうふん" },
+    { "num": 10, "kanji": "10分", "reading": "じゅっぷん" },
+    { "num": 15, "kanji": "15分", "reading": "じゅうごふん" },
+    { "num": 20, "kanji": "20分", "reading": "にじゅっぷん" },
+    { "num": 30, "kanji": "30分", "reading": "さんじゅっぷん", "note": "also 半 (はん)" },
+    { "num": 40, "kanji": "40分", "reading": "よんじゅっぷん" },
+    { "num": 45, "kanji": "45分", "reading": "よんじゅうごふん" },
+    { "num": 50, "kanji": "50分", "reading": "ごじゅっぷん" },
+    { "num": 0, "kanji": "何分", "reading": "なんぷん", "note": "how many minutes?" }
+  ]
+}

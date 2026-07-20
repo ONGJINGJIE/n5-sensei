@@ -1,0 +1,198 @@
+[
+  {
+    "id": "g1",
+    "pattern": "は (topic marker)",
+    "patternFurigana": "は (topic marker)",
+    "explanation": "Marks the topic of the sentence — what the sentence is about.",
+    "examples": [
+      { "jp": "私は学生です。", "furigana": "私[わたし]は学生[がくせい]です。", "en": "I am a student." },
+      { "jp": "これは本です。", "furigana": "これは本[ほん]です。", "en": "This is a book." }
+    ]
+  },
+  {
+    "id": "g2",
+    "pattern": "が (subject marker)",
+    "patternFurigana": "が (subject marker)",
+    "explanation": "Marks the grammatical subject, often introducing new information or after question words.",
+    "examples": [
+      { "jp": "猫がいます。", "furigana": "猫[ねこ]がいます。", "en": "There is a cat." },
+      { "jp": "誰が来ますか。", "furigana": "誰[だれ]が来[き]ますか。", "en": "Who is coming?" }
+    ]
+  },
+  {
+    "id": "g3",
+    "pattern": "を (object marker)",
+    "patternFurigana": "を (object marker)",
+    "explanation": "Marks the direct object of a verb.",
+    "examples": [
+      { "jp": "ご飯を食べます。", "furigana": "ご飯[はん]を食[た]べます。", "en": "I eat rice." },
+      { "jp": "本を読みます。", "furigana": "本[ほん]を読[よ]みます。", "en": "I read a book." }
+    ]
+  },
+  {
+    "id": "g4",
+    "pattern": "に (time / destination)",
+    "patternFurigana": "に (time / destination)",
+    "explanation": "Marks a specific point in time or a destination/target of movement.",
+    "examples": [
+      { "jp": "七時に起きます。", "furigana": "七時[しちじ]に起[お]きます。", "en": "I wake up at 7 o'clock." },
+      { "jp": "学校に行きます。", "furigana": "学校[がっこう]に行[い]きます。", "en": "I go to school." }
+    ]
+  },
+  {
+    "id": "g5",
+    "pattern": "で (location of action / means)",
+    "patternFurigana": "で (location of action / means)",
+    "explanation": "Marks where an action takes place, or the means/method used.",
+    "examples": [
+      {
+        "jp": "図書館で勉強します。",
+        "furigana": "図書館[としょかん]で勉強[べんきょう]します。",
+        "en": "I study at the library."
+      },
+      { "jp": "電車で行きます。", "furigana": "電車[でんしゃ]で行[い]きます。", "en": "I go by train." }
+    ]
+  },
+  {
+    "id": "g6",
+    "pattern": "と (and / with)",
+    "patternFurigana": "と (and / with)",
+    "explanation": "Connects nouns (\"and\"), or marks a companion (\"with\").",
+    "examples": [
+      { "jp": "パンとコーヒーを飲みます。", "furigana": "パンとコーヒーを飲[の]みます。", "en": "I have bread and coffee." },
+      { "jp": "友達と話します。", "furigana": "友達[ともだち]と話[はな]します。", "en": "I talk with a friend." }
+    ]
+  },
+  {
+    "id": "g7",
+    "pattern": "です / だ (copula)",
+    "patternFurigana": "です / だ (copula)",
+    "explanation": "The polite \"to be\" verb — equates or describes the topic.",
+    "examples": [
+      { "jp": "これは机です。", "furigana": "これは机[つくえ]です。", "en": "This is a desk." },
+      { "jp": "今日は暑いです。", "furigana": "今日[きょう]は暑[あつ]いです。", "en": "Today is hot." }
+    ]
+  },
+  {
+    "id": "g8",
+    "pattern": "〜ます / 〜ません (polite verb form)",
+    "patternFurigana": "〜ます / 〜ません (polite verb form)",
+    "explanation": "Polite present/future affirmative (〜ます) and negative (〜ません) verb endings.",
+    "examples": [
+      { "jp": "毎日勉強します。", "furigana": "毎日[まいにち]勉強[べんきょう]します。", "en": "I study every day." },
+      { "jp": "肉は食べません。", "furigana": "肉[にく]は食[た]べません。", "en": "I don't eat meat." }
+    ]
+  },
+  {
+    "id": "g9",
+    "pattern": "〜ました / 〜ませんでした (past polite)",
+    "patternFurigana": "〜ました / 〜ませんでした (past polite)",
+    "explanation": "Polite past affirmative (〜ました) and negative (〜ませんでした) verb endings.",
+    "examples": [
+      {
+        "jp": "昨日、映画を見ました。",
+        "furigana": "昨日[きのう]、映画[えいが]を見[み]ました。",
+        "en": "I watched a movie yesterday."
+      },
+      {
+        "jp": "今朝、何も食べませんでした。",
+        "furigana": "今朝[けさ]、何[なに]も食[た]べませんでした。",
+        "en": "I didn't eat anything this morning."
+      }
+    ]
+  },
+  {
+    "id": "g10",
+    "pattern": "〜たいです (want to)",
+    "patternFurigana": "〜たいです (want to)",
+    "explanation": "Attaches to a verb stem to express the speaker's desire to do something.",
+    "examples": [
+      { "jp": "日本に行きたいです。", "furigana": "日本[にほん]に行[い]きたいです。", "en": "I want to go to Japan." },
+      { "jp": "水が飲みたいです。", "furigana": "水[みず]が飲[の]みたいです。", "en": "I want to drink water." }
+    ]
+  },
+  {
+    "id": "g11",
+    "pattern": "〜ています (progressive / state)",
+    "patternFurigana": "〜ています (progressive / state)",
+    "explanation": "Expresses an ongoing action (\"is doing\") or a resulting state.",
+    "examples": [
+      {
+        "jp": "今、本を読んでいます。",
+        "furigana": "今[いま]、本[ほん]を読[よ]んでいます。",
+        "en": "I am reading a book now."
+      },
+      { "jp": "彼は結婚しています。", "furigana": "彼[かれ]は結婚[けっこん]しています。", "en": "He is married." }
+    ]
+  },
+  {
+    "id": "g12",
+    "pattern": "〜てください (please do)",
+    "patternFurigana": "〜てください (please do)",
+    "explanation": "A polite request asking someone to do something.",
+    "examples": [
+      { "jp": "ここに座ってください。", "furigana": "ここに座[すわ]ってください。", "en": "Please sit here." },
+      { "jp": "少し待ってください。", "furigana": "少[すこ]し待[ま]ってください。", "en": "Please wait a moment." }
+    ]
+  },
+  {
+    "id": "g13",
+    "pattern": "〜ないでください (please don't)",
+    "patternFurigana": "〜ないでください (please don't)",
+    "explanation": "A polite request asking someone not to do something.",
+    "examples": [
+      {
+        "jp": "写真を撮らないでください。",
+        "furigana": "写真[しゃしん]を撮[と]らないでください。",
+        "en": "Please don't take photos."
+      },
+      {
+        "jp": "ここに入らないでください。",
+        "furigana": "ここに入[はい]らないでください。",
+        "en": "Please don't enter here."
+      }
+    ]
+  },
+  {
+    "id": "g14",
+    "pattern": "〜が好きです (like)",
+    "patternFurigana": "〜が好[す]きです (like)",
+    "explanation": "Expresses liking something; the liked thing is marked with が.",
+    "examples": [
+      { "jp": "音楽が好きです。", "furigana": "音楽[おんがく]が好[す]きです。", "en": "I like music." },
+      { "jp": "犬が好きですか。", "furigana": "犬[いぬ]が好[す]きですか。", "en": "Do you like dogs?" }
+    ]
+  },
+  {
+    "id": "g15",
+    "pattern": "〜ことができます (can do)",
+    "patternFurigana": "〜ことができます (can do)",
+    "explanation": "Attaches to a verb's dictionary form to express ability.",
+    "examples": [
+      {
+        "jp": "日本語を話すことができます。",
+        "furigana": "日本語[にほんご]を話[はな]すことができます。",
+        "en": "I can speak Japanese."
+      },
+      { "jp": "泳ぐことができません。", "furigana": "泳[およ]ぐことができません。", "en": "I can't swim." }
+    ]
+  },
+  {
+    "id": "g16",
+    "pattern": "〜前に / 〜後で (before / after)",
+    "patternFurigana": "〜前[まえ]に / 〜後[あと]で (before / after)",
+    "explanation": "〜前に attaches to a verb's dictionary form for \"before doing\"; 〜後で attaches to た-form for \"after doing\".",
+    "examples": [
+      {
+        "jp": "寝る前に歯を磨きます。",
+        "furigana": "寝[ね]る前[まえ]に歯[は]を磨[みが]きます。",
+        "en": "I brush my teeth before sleeping."
+      },
+      {
+        "jp": "食べた後で薬を飲みます。",
+        "furigana": "食[た]べた後[あと]で薬[くすり]を飲[の]みます。",
+        "en": "I take medicine after eating."
+      }
+    ]
+  }
+]
