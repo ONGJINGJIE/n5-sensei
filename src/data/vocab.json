@@ -117,5 +117,21 @@
     "pos": "expression",
     "category": "greetings"
   },
-  { "id": "v105", "word": "さようなら", "reading": "さようなら", "meaning": "goodbye", "pos": "expression", "category": "greetings" }
+  { "id": "v105", "word": "さようなら", "reading": "さようなら", "meaning": "goodbye", "pos": "expression", "category": "greetings" },
+  { "id": "v106", "word": "これ", "reading": "これ", "meaning": "this (thing)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v107", "word": "それ", "reading": "それ", "meaning": "that (thing)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v108", "word": "あれ", "reading": "あれ", "meaning": "that (thing) over there", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v109", "word": "どれ", "reading": "どれ", "meaning": "which (thing)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v110", "word": "この", "reading": "この", "meaning": "this ~ (+ noun)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v111", "word": "その", "reading": "その", "meaning": "that ~ (+ noun)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v112", "word": "あの", "reading": "あの", "meaning": "that ~ over there (+ noun)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v113", "word": "どの", "reading": "どの", "meaning": "which ~ (+ noun)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v114", "word": "ここ", "reading": "ここ", "meaning": "here", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v115", "word": "そこ", "reading": "そこ", "meaning": "there", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v116", "word": "あそこ", "reading": "あそこ", "meaning": "over there", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v117", "word": "どこ", "reading": "どこ", "meaning": "where", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v118", "word": "こちら", "reading": "こちら", "meaning": "this way / this person (polite)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v119", "word": "そちら", "reading": "そちら", "meaning": "that way / that person (polite)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v120", "word": "あちら", "reading": "あちら", "meaning": "that way over there / that person (polite)", "pos": "pronoun", "category": "pronouns" },
+  { "id": "v121", "word": "どちら", "reading": "どちら", "meaning": "which way / who (polite)", "pos": "pronoun", "category": "pronouns" }
 ]

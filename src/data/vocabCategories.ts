@@ -10,6 +10,7 @@ export interface VocabCategoryMeta {
 export const VOCAB_CATEGORIES: VocabCategoryMeta[] = [
   { key: "greetings", label: "Greetings & Expressions", icon: "👋" },
   { key: "people", label: "People & Family", icon: "👪" },
+  { key: "pronouns", label: "Pointing Words (これ/ここ)", icon: "👉" },
   { key: "places", label: "Places", icon: "🏠" },
   { key: "daily-life", label: "Daily Life", icon: "💼" },
   { key: "transportation", label: "Transportation", icon: "🚃" },

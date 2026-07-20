@@ -9,6 +9,7 @@ export interface KanaItem {
 export type VocabCategory =
   | "greetings"
   | "people"
+  | "pronouns"
   | "places"
   | "daily-life"
   | "transportation"

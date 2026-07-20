@@ -4,7 +4,7 @@ import { Furigana, FuriganaText } from "../components/Furigana";
 import { PageHeader } from "../components/PageHeader";
 import { speak } from "../lib/tts";
 import { primaryKanjiReading, toReadingText } from "../lib/furigana";
-import { toHiragana } from "../lib/kana";
+import { looksLikeRomaji, romajiToHiragana, toHiragana } from "../lib/kana";
 
 const MAX_RESULTS = 25;
 
@@ -15,7 +15,13 @@ function normalize(s: string): string {
 
 function matches(query: string, ...fields: string[]): boolean {
   const q = normalize(query);
-  return fields.some((f) => normalize(f).includes(q));
+  // Also try the query as romaji (e.g. "koko" -> "ここ") so plain English letters find
+  // Japanese text without needing an IME.
+  const qRomaji = looksLikeRomaji(query) ? normalize(romajiToHiragana(query)) : null;
+  return fields.some((f) => {
+    const nf = normalize(f);
+    return nf.includes(q) || (qRomaji !== null && nf.includes(qRomaji));
+  });
 }
 
 function ResultSection({ title, children }: { title: string; children: ReactNode }) {
